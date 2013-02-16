@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="NeuronApplication.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Function" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sigmoid</Value>
+    </Setting>
+    <Setting Name="NeuronsFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\neurons.txt</Value>
+    </Setting>
+    <Setting Name="InputsFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\inputs.txt</Value>
+    </Setting>
+    <Setting Name="InputsCount" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

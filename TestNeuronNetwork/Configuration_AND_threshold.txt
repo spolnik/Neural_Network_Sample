@@ -1,0 +1,14 @@
+﻿#StartConfig
+#NewLayer
+#NeuronsCount
+1
+#End
+#Threshold
+0.2015972
+#End
+#Weights
+0.12474
+0.1322492
+#End
+#EndLayer
+#EndConfig

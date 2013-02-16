@@ -1,0 +1,12 @@
+﻿#StartConfig
+#NewLayer
+#NeuronsCount
+20
+#End
+#EndLayer
+#NewLayer
+#NeuronsCount
+2
+#End
+#EndLayer
+#EndConfig

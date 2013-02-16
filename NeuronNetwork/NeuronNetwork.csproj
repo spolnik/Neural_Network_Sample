@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B42C800F-E332-4C1C-8B94-B7EB9B592116}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NeuronNetwork</RootNamespace>
+    <AssemblyName>NeuronNetwork</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\Functions\BipolarSigmoidFunction.cs" />
+    <Compile Include="Base\LayerData.cs" />
+    <Compile Include="Base\Functions\SigmoidFunction.cs" />
+    <Compile Include="Base\Layers\ILayer.cs" />
+    <Compile Include="Base\Layers\INeuronsCollection.cs" />
+    <Compile Include="Base\Layers\Layer.cs" />
+    <Compile Include="Base\Layers\NeuronsCollection.cs" />
+    <Compile Include="Base\Learning\BackPropagationLearning.cs" />
+    <Compile Include="Base\Learning\DeltaRuleLearning.cs" />
+    <Compile Include="Base\Learning\ISupervisedLearning.cs" />
+    <Compile Include="Base\Learning\IUnsupervisedLearning.cs" />
+    <Compile Include="Base\Learning\KohonenLearning.cs" />
+    <Compile Include="Base\Learning\PerceptronLearning.cs" />
+    <Compile Include="Base\Learning\WidrowHoffLearning.cs" />
+    <Compile Include="Base\Networks\ILayersCollection.cs" />
+    <Compile Include="Base\Networks\INetwork.cs" />
+    <Compile Include="Base\Networks\LayersCollection.cs" />
+    <Compile Include="Base\Functions\IActivationFunction.cs" />
+    <Compile Include="Base\OutputsCollection.cs" />
+    <Compile Include="Base\Networks\Network.cs" />
+    <Compile Include="Base\Neurons\INeuron.cs" />
+    <Compile Include="Base\Neurons\Neuron.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\NeuralNetworkFileParser.cs" />
+    <Compile Include="Utility\DataLoader.cs" />
+    <Compile Include="Utility\NeuronNetworkHelper.cs" />
+    <Compile Include="Base\Functions\LinearFunction.cs" />
+    <Compile Include="Base\Functions\ThresholdFunction.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

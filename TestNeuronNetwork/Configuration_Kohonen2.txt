@@ -1,0 +1,7 @@
+﻿#StartConfig
+#NewLayer
+#NeuronsCount
+4
+#End
+#EndLayer
+#EndConfig

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuronNetwork", "NeuronNetwork\NeuronNetwork.csproj", "{B42C800F-E332-4C1C-8B94-B7EB9B592116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNeuronNetwork", "TestNeuronNetwork\TestNeuronNetwork.csproj", "{711ECE60-A066-4A1E-9F07-94A7028DF554}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuronApplication", "NeuronApplication\NeuronApplication.csproj", "{6172474D-AB7D-4107-AA07-3623B3B2B115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B42C800F-E332-4C1C-8B94-B7EB9B592116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B42C800F-E332-4C1C-8B94-B7EB9B592116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B42C800F-E332-4C1C-8B94-B7EB9B592116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B42C800F-E332-4C1C-8B94-B7EB9B592116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711ECE60-A066-4A1E-9F07-94A7028DF554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711ECE60-A066-4A1E-9F07-94A7028DF554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711ECE60-A066-4A1E-9F07-94A7028DF554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711ECE60-A066-4A1E-9F07-94A7028DF554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6172474D-AB7D-4107-AA07-3623B3B2B115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6172474D-AB7D-4107-AA07-3623B3B2B115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6172474D-AB7D-4107-AA07-3623B3B2B115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6172474D-AB7D-4107-AA07-3623B3B2B115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
